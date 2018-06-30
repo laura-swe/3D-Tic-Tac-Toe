@@ -1,11 +1,11 @@
-#3D TIC TAC TOE
+# 3D TIC TAC TOE
 Real-time multiplayer game of three dimensional Tic-Tac-Toe
 
 Players: max 2
 
 Tools: Node.js, Javascipt, HTML, CSS
 
-##Feautures
+## Features
 
 1. Dynamic CSS and HTML
 2. Created login with a password
@@ -18,13 +18,13 @@ Tools: Node.js, Javascipt, HTML, CSS
 9. Reset button
 10. 3D UI
 
-##Dependencies
-###Install
+## Dependencies
+### Install
 Install all the dependencies from package.json using the command:
 
 `npm install`
 
-###List
+### List
 * Passport
 * Express
 * Express Session
@@ -34,7 +34,7 @@ Install all the dependencies from package.json using the command:
 * Cookie-parser
 
 
-##Run
+## Run
 Run the game using the command:
 
 `pm2 start A4/server.js`
@@ -42,5 +42,5 @@ Run the game using the command:
 The program will be displayed in [http://localhost:25042](https://localhost:25042)
 
 
-##References:
-* Implementation of login was referenced from [these](https://www.youtube.com/watch?v=Z1ktxiqyiLA&feature=youtu.be) tutorial videos (Part 1,2, and 3)
+## References
+* Implementation of login was referenced from [these](https://www.youtube.com/watch?v=Z1ktxiqyiLA&feature=youtu.be) tutorial videos (Part 1, 2, and 3)
