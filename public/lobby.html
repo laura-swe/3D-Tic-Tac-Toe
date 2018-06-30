@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Overlock" rel="stylesheet">
+	<title>Dashboard</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+
+<body onload="getUsersData()">
+	<header>
+        <h1>Welcome</h1>
+        <p id="username"></p>
+    </header>
+	<section>
+        <h3>Players</h3>
+        <table id="profiles">
+            <thead>
+            <td>Username</td>
+            <td>First Name</td>
+            <td>Last Name</td>
+            <td>Age</td>
+            <td>Gender</td>
+            <td>Email</td>
+            <td>Wins</td>
+            <td>Loses</td>
+            </thead>
+        </table>
+        <h3>Actions</h3>
+        <button onclick="window.location.href = './game'">
+            PLAY!
+        </button>
+        <button onclick="window.location.href = './logout'">
+            Logout
+        </button>
+    </section>
+</body>
+<script src="js/stats.js"></script>
+</html>

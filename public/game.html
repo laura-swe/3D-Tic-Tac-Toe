@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Overlock" rel="stylesheet">
+	<title>Game</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+
+<body>
+	<header>
+        <h1>3D TIC TAC TOE</h1>
+        <div  id="colors">
+            <h2 style="-webkit-text-fill-color: firebrick;">Oponent's Color</h2>
+            <h2 style="-webkit-text-fill-color: dodgerblue;">Your Color</h2>
+        </div>
+        <p id="moves"></p>
+        <p id="message"></p>
+    </header>
+	<section id="section">
+        <table id="table">
+        </table>
+	</section>
+	<footer>
+        <button id="reset">
+            <name>Reset</name>
+        </button>
+        <!--<button id="color" style="background-color: firebrick;">-->
+            <!--<name>Change Colour</name>-->
+        <!--</button>-->
+        <button id="surrender">
+            <name>Surrender</name>
+        </button>
+
+		<!--<article id="inst">-->
+   	 		<!--<h2>Instructions</h2>-->
+   	 		<!--<p>- </p>-->
+			<!--<p>- </p>-->
+   		<!--</article>-->
+	</footer>
+</body>
+<script src="js/socket.io.js"></script>
+<!--<script src="/socket.io/socket.io.js"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/client.js"></script>
+<script src="js/game.js"></script>
+</html>

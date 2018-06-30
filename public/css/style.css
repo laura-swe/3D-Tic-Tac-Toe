@@ -1,0 +1,131 @@
+@charset "utf-8";
+#colors{
+    padding: 0px;
+    display: inline-flex;
+}
+
+#colors>h2{
+    margin-right: 2.5em;
+}
+
+body{
+    background-color: #262626;
+    font-family: 'Overlock', cursive;
+    -webkit-text-fill-color: white;
+}
+
+header{
+    line-height: 0px;
+	-webkit-text-fill-color: white;
+    text-align: center;
+}
+
+section{
+    -webkit-perspective: 1000px; /* Chrome, Safari, Opera  */
+    perspective: 1000px;
+}
+
+table{
+	width: 40%;
+	margin: 0 auto;
+	padding: 1em;
+
+	background-color: whitesmoke;
+    border-collapse: collapse;
+    -webkit-transform-style: preserve-3d;
+    text-align: center;
+
+    -webkit-transform:  rotateX(60deg);
+    transform:rotateX(60deg);
+    -webkit-text-fill-color: black;
+}
+
+td {
+	height: 3em;
+	width: auto;
+    border: 1px solid #3c3e42;
+
+    word-wrap: break-word;
+    white-space: pre;
+
+    text-align: center;
+    vertical-align: bottom;
+
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+tr{
+	height: 3em;
+    border: 1px solid #3c3e42;
+	text-align: right;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+tbody {
+	background-color: whitesmoke;
+}
+
+button{
+    border: 1px #17445E solid;
+    font-size: 1em;
+    background-color: #216288;
+    color: white;
+    margin: 0.25em;
+    font-family: 'Overlock', cursive;
+    -webkit-text-fill-color: white;
+}
+
+
+button:hover{
+    border: 1px #17445E solid;
+    background-color: #28739E;
+    color: white;
+}
+button:active{
+    border: 1px #17445E solid;
+    background-color: #17445E;
+    color: white;
+}
+button:focus {
+    outline: none;
+}
+
+form{
+    background-color: whitesmoke;
+    border: 4px solid #305A72;
+    border-radius: 10px;
+    width: 230px;
+    padding: 20px;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    -webkit-text-fill-color: black;
+}
+
+input{
+    border: 1px solid #B0CFE0;
+    padding: 5px;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    -webkit-text-fill-color: black;
+}
+input:focus {
+    outline: none;
+}
+#statsTable, #profiles{
+    -webkit-text-fill-color: black;
+    -webkit-transform:rotateX(0deg);
+    transform:rotateX(0deg);
+
+}
+#statsTable > tr, #profiles >tr{
+    height: auto;
+
+}
+
+
+/*#inst{*/
+	/*-webkit-text-fill-color: white;*/
+/*}*/
