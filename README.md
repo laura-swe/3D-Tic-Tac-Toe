@@ -39,7 +39,7 @@ Run the game using the command:
 
 `node server.js`
 
-The program will be displayed in [localhost:25042](localhost:25042)
+The program will be displayed in [localhost:25042](http://localhost:25042)
 
 
 ## References
