@@ -37,7 +37,7 @@ Install all the dependencies from package.json using the command:
 ## Run
 Run the game using the command:
 
-`pm2 start A4/server.js`
+`node server.js`
 
 The program will be displayed in [http://localhost:25042](https://localhost:25042)
 
