@@ -19,7 +19,7 @@ var mongoDb = "a3";
 //App routes
 
 
-app.use(express.urlencoded());
+//app.use(express.urlencoded());
 app.use(express.json());
 app.use(cookieParser());
 app.use(session({
